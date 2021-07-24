@@ -3,23 +3,28 @@
     <head>
         <meta charset="UTF-8">
         <meta name="description" content="site Reservia">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Reservia</title>
         <link href="CSS/desktop.css" rel="stylesheet">
-        <link href="CSS/mobile.css" rel="stylesheet">
+        <link href="CSS/mobile.css" rel="stylesheet" media="screen and (max-width:400px)">
         <link href="CSS/tablette.css" rel="stylesheet">
         <script src="https://kit.fontawesome.com/f46add157b.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <header>
-            <nav>
-                <div class="nav-img">
+                <div class="logo">
                     <img src="images/logo/Reservia@3x.png" alt="logo de Reservia">
                 </div>
-                <div class="header-nav">
+            <nav class="header-nav">
+                <div class="onglets">
                     <ul>
                         <li><a href="#hebergements">Hébergements</a></li>
                         <li><a href="#activites">Activités</a></li>
-                        <li id="inscription">S'inscrire</li>
+                    </ul>
+                </div>
+                <div class="inscription">
+                    <ul>
+                        <li>S'inscrire</li>
                     </ul>
                 </div>
             </nav>
@@ -35,7 +40,7 @@
                 <div class="search-box">
                     <i class="fas fa-map-marker-alt"></i>
                     <input type="search" name="site-search" id="site-search" placeholder="Marseille, France">
-                    <button>Rechercher</button>
+                    <button><i class="fas fa-search"></i>Rechercher</i></button>
                 </div>
                 </form>
             </div>
@@ -146,7 +151,7 @@
                         <div>
                             <div>
                                 <img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="chambre des chambres d'hôtes Au coeur de l'eau">
-                                <h4>Au coeur de l'eau <hr>Chambres d'hôtes</h4>
+                                <h4>Au coeur de l'eau Chambres d'hôtes</h4>
                                 <p>Nuit à partir de 71€</p>
                                 <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                             </div>
@@ -181,7 +186,7 @@
                         <div>
                             <div>
                                 <img src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Image du Fort de Pomègues">
-                                <h4>Vieux Port</h4>
+                                <h4>Fort de Pomègues</h4>
                             </div>
                         </div>
                     </a>
