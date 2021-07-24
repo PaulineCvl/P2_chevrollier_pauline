@@ -12,41 +12,55 @@
 
 header {
     margin: 40px;
-}
-
-nav {
     display: flex;
 }
 
-nav img {
-    height: 50px;
+.logo {
+    display: flex;
+    width: 66%;
 }
 
-.nav-img {
-    display: flex;
-    width: 50%;
+.logo img {
+    height:30px;
 }
 
 .header-nav {
     display: flex;
     width: 50%;
+    justify-content: space-around;
 }
 
 .header-nav ul {
     list-style: none;
-    font-family: "Raleway";
+}
+
+.onglets {
     display: flex;
-    width: 100%;
+    width: 75%;
+}
+
+.onglets ul {
+    display: flex;
+    width:100%;
     justify-content: space-around;
 }
 
-.header-nav a {
+.onglets a {
     text-decoration: none;
+    font-family: "Raleway";
 }
 
-#inscription {
+.inscription {
+    display: flex;
+}
+
+.inscription ul {
+    padding: 0;
+}
+
+.inscription li {
     font-family: "RalewayBold";
-    color:#0065FC;
+    color: #0065FC;
 }
 
 /* MAIN */
@@ -78,10 +92,14 @@ main {
     color: #FFF;
     background-color: #0065FC;
     height: 50px;
-    width: 135px;
+    width: 130px;
     border-width: 0;
     border-radius: 0 15px 15px 0;
     margin:-5px;
+}
+
+.search-box button i {
+    visibility: hidden;
 }
 
 .search-box input {
