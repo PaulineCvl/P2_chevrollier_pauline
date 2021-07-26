@@ -1,0 +1,10 @@
+@media only screen and (max-width:850px) {
+    .logo {
+        width: 30%;
+    }
+
+    .header-nav {
+        width: 70%;
+        min-width: 315px;
+    }
+}
