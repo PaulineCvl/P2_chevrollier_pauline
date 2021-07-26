@@ -217,6 +217,12 @@ main {
     border-radius: 50px;
 }
 
+.filters-choice:hover {
+    border-color: #0065FC;
+    border-width: 3px;
+    color: #0065FC;
+}
+
 .info {
     display: flex;
     margin-top: 35px;
