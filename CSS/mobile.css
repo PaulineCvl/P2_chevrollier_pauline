@@ -17,10 +17,10 @@
         height: 40px;
     }
 
-    .onglets {
+    .tabs {
         width: auto;
     }
-    .onglets ul {
+    .tabs ul {
         padding: 0;
         width: 100%;
     }
@@ -35,28 +35,46 @@
         margin: 20px;
     }
 
-    .txt-filters h3 {
+    .filters-head h3 {
         font-size: 22px;
     }
 
     .search-box button {
-  
+        font-size: 0;
+        position: relative;
+        top: -4px; 
         width: 50px;
-        margin: -10px;
+        margin: -20px;
+        border-radius: 15px;
     }
 
     .search-box button i {
         visibility: visible;
+        font-size: 16px;
         color: #fff;
         position: relative;
     }
 
     .fa-search:before {
         position: absolute;
-        top: -20px;
-        left: -20px;
+        top: -10px;
+        left: -25px;
         height: 50px;
         width: 50px;
     }
+
+    .filters {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .p-filters {
+        display: flex;
+    }
+
+    .filters-ctg {
+        width: auto;
+    }
+
 
 }

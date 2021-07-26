@@ -123,7 +123,7 @@ main {
     background-color: #F2F2F2;
     border-radius: 15px 0 0 15px;
     position: relative;
-    top: 20px;
+    top: 21px;
     left: 5px;
 }
 
@@ -134,8 +134,13 @@ main {
 }
 
 .filters {
+    display: flex;
+}
+
+.filters-ctg {
     width: 70%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -143,10 +148,15 @@ main {
     font-family: "RalewayBold";
 }
 
+.p-filters {
+    padding-top: 10px;
+}
+
 .filters-box {
     display: flex;
     justify-content: space-between;
     position: relative;
+    margin: 12px;
 }
 
 .filters-box i {
@@ -206,8 +216,8 @@ main {
     border-color: #F2F2F2;
     border-radius: 50px;
     border-width: 1px;
-    height: 25px;
-    width: 25px;
+    max-height: 25px;
+    min-width: 25px;
     position: relative;
 }
 
