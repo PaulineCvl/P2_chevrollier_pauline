@@ -9,11 +9,11 @@
     }
     .logo {
         display: inline;
-        height:50%; 
+        height: 50%; 
         position: absolute;
     }
     .logo img {
-        margin:20px;
+        margin: 20px;
         height: 40px;
     }
 
@@ -25,38 +25,38 @@
         width: 100%;
     }
 
-    .inscription {
-        order:-3;
+    .register {
+        order: -3;
         justify-content: flex-end;
         width: 90%;
     }
 
     main {
-        margin:20px;
+        margin: 20px;
     }
 
-    .txt-filtres h3 {
+    .txt-filters h3 {
         font-size: 22px;
     }
 
     .search-box button {
   
         width: 50px;
-        margin:-10px;
+        margin: -10px;
     }
 
     .search-box button i {
         visibility: visible;
         color: #fff;
-        position:relative;
+        position: relative;
     }
 
     .fa-search:before {
         position: absolute;
-        top:-20px;
-        left:-20px;
+        top: -20px;
+        left: -20px;
         height: 50px;
-        width:50px;
+        width: 50px;
     }
 
 }
