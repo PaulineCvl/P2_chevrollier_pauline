@@ -1,17 +1,20 @@
-@media only screen and (max-width:400px) {
+@media only screen and (max-width:510px) {
     header {
         margin: 20px;
         display: inline;
     }
+
     .header-nav {
         flex-direction: column;
-        width: auto;
+        width: 90%;
     }
+
     .logo {
         display: inline;
         height: 50%; 
         position: absolute;
     }
+
     .logo img {
         margin: 20px;
         height: 40px;
@@ -20,6 +23,7 @@
     .tabs {
         width: auto;
     }
+
     .tabs ul {
         padding: 0;
         width: 100%;
@@ -28,7 +32,6 @@
     .register {
         order: -3;
         justify-content: flex-end;
-        width: 90%;
     }
 
     main {
@@ -37,6 +40,11 @@
 
     .filters-head h3 {
         font-size: 22px;
+    }
+
+    .search-box input {
+        width: 50%;
+        min-width: 150px;
     }
 
     .search-box button {
