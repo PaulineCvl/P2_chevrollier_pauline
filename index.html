@@ -9,7 +9,7 @@
         <link rel="preload" href="Raleway-Bold.woff2" as="font" type="font/woff2" crossorigin>
         <link href="css/desktop.css" rel="stylesheet">
         <link href="css/mobile.css" rel="stylesheet" media="screen and (max-width: 480px)">
-        <link href="css/tablette.css" rel="stylesheet" media="screen and (max-width: 850px)">
+        <link href="css/tablette.css" rel="stylesheet" media="screen and (min-width: 481px) and (max-width: 850px)">
         <script src="https://kit.fontawesome.com/f46add157b.js" crossorigin="anonymous"></script>
     </head>
     <body>
@@ -171,7 +171,9 @@
                         </div>
                     </a>
                 </div>
-                <p>Afficher plus</p>
+                <div class="more">
+                    <p>Afficher plus</p>
+                </div>
             </article>
             <article class="popular-section">
                 <div class="popular-head">
@@ -208,7 +210,7 @@
         </section>
         <section>
             <h2 id="activities">Activités à Marseille</h2>
-            <div>
+            <div class="activities-section">
                 <a>
                     <div>
                         <div>
