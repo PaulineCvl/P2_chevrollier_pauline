@@ -1,10 +1,147 @@
-@media only screen and (max-width:850px) {
+@media only screen and (min-width: 481px) and (max-width: 850px) {
+    body {
+        margin: 0;
+    }
+
+    header {
+        margin: 20px 40px;
+    }
+
     .logo {
         width: 30%;
     }
 
+    header {
+        margin: 20px;
+        display: inline;
+    }
+
     .header-nav {
-        width: 70%;
-        min-width: 315px;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .logo {
+        display: inline;
+        height: 50%; 
+        position: absolute;
+    }
+
+    .logo img {
+        margin: 20px;
+        height: 40px;
+    }
+
+    .tabs {
+        width: auto;
+    }
+
+    .tabs ul {
+        padding: 0;
+        width: 100%;
+        height: 50px;
+    }
+
+    #lodging-tab {
+        padding-top: 20px;
+        border-top-style: none;
+        border-bottom-style: solid;
+    }
+
+    #activities-tab {
+        padding-top: 20px;
+        border-bottom-style: solid;
+        border-color: #f2f2f2;
+        border-width: 2px;
+    }
+
+    .register {
+        order: -3;
+        justify-content: flex-end;
+        width: 85%;
+    }
+
+    main {
+        margin: 0;
+    }
+
+    .filters-head {
+        text-align: center;
+    }
+
+    .filters-ctg {
+        justify-content: flex-start;
+    }
+
+    .filters-box {
+        justify-content: flex-start;
+    }
+
+    .search-box {
+        padding-left: 25%;
+    }
+
+    .search-box button {
+        font-size: 0;
+        position: relative;
+        top: 2px;
+        width: 50px;
+        margin: -20px;
+        border-radius: 15px;
+    }
+
+    .search-box button i {
+        visibility: visible;
+        font-size: 16px;
+        color: #fff;
+        position: relative;
+    }
+
+    .filters {
+        justify-content: center;
+    }
+
+    .info {
+        padding-left: 10%;
+    }
+
+    .results {
+        flex-direction: column-reverse;
+    }
+
+    .popular-section {
+        width: 100%;
+        border-radius: 0;
+        padding: 50px 0 50px 0;
+    }
+
+    .popular-head {
+        width: 50%;
+        padding-left: 25%;
+    }
+
+    .m-popular {
+        padding-left: 25%;
+    }
+
+    .lodging-section {
+        width: 100%;
+        border-radius: 0;
+        background-color: #fff;
+        padding: 50px 0 50px 0;
+    }
+
+    .lodging-section h2 {
+        padding-left: 25%;
+        margin-bottom: 0;
+    }
+
+    .m-lodging {
+        padding: 10%;
+    }
+
+    .more p {
+        padding-left: 10%;
+        margin: 0;
     }
 }
