@@ -1,4 +1,8 @@
-@media only screen and (max-width:510px) {
+@media only screen and (max-width: 480px) {
+    body {
+        margin: 0;
+    }
+
     header {
         margin: 20px;
         display: inline;
@@ -27,6 +31,20 @@
     .tabs ul {
         padding: 0;
         width: 100%;
+        height: 50px;
+    }
+
+    #lodging-tab {
+        padding-top: 20px;
+        border-top-style: none;
+        border-bottom-style: solid;
+    }
+
+    #activities-tab {
+        padding-top: 20px;
+        border-bottom-style: solid;
+        border-color: #f2f2f2;
+        border-width: 2px;
     }
 
     .register {
@@ -35,6 +53,10 @@
     }
 
     main {
+        margin: 0;
+    }
+
+    .search {
         margin: 20px;
     }
 
@@ -82,6 +104,72 @@
 
     .filters-ctg {
         width: auto;
+    }
+
+    .results {
+        flex-direction: column-reverse;
+    }
+
+    .popular-section {
+        padding: 30px 20px;
+        margin: 0;
+        width: 100%;
+        min-width: 330px;
+        border-radius: 0;
+    }
+
+    .popular-head {
+        width: 80%;
+    }
+
+    .popular-box {
+        max-width: 335px;
+        width: 85%;
+        margin-bottom: 10px;
+    }
+
+    .popular-box h4 {
+        padding: 10px;
+    }
+
+    .popular-box p {
+        padding: 0 10px 25px 0;
+        font-size: 14px;
+    }
+
+    .lodging-section {
+        padding: 30px 20px;
+        margin: 0;
+        width: 100%;
+        min-width: 330px;
+        border-radius: 0;
+        background-color: #fff;
+    }
+
+    .m-lodging {
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+    .lodging-box {
+        width: 85%;
+        margin-bottom: 10px;
+    }
+
+    .lodging-box img {
+        width: 100%;
+    }
+
+    .lodging-box h4 {
+        margin-top: 5px;
+    }
+
+    .lodging-box p {
+        margin: 5px 0 10px 0;
+    }
+
+    .fa-star {
+        margin-bottom: 0;
     }
 
 
