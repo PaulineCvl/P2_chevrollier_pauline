@@ -92,7 +92,7 @@ header {
 /* MAIN */
 
 main {
-    margin: 40px;
+    margin: 30px;
 }
 
 /* SECTION RECHERCHE ET FILTRES */
@@ -166,7 +166,7 @@ main {
 }
 
 .filters-ctg {
-    width: 70%;
+    width: 65%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
