@@ -413,3 +413,43 @@ main {
 .popular-box span {
     font-weight: bold;
 }
+
+/* SECTION ACTIVITES */
+
+#activities {
+    font-family: 'Raleway';
+    font-weight: bold;
+    margin: 65px 0 25px 0;
+}
+
+.activities-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.activities-section a {
+    text-decoration: none;
+}
+
+.activities-box h4 {
+    font-family: 'Raleway';
+    font-weight: bold;
+    color: #000;
+    margin: 0;
+    padding: 20px 0 20px 20px;
+}
+
+.activities-box img {
+    border-radius: 15px 15px 0 0;
+}
+
+.activities-box {
+    border-radius: 15px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.3);
+}
+
+.activities-m {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
