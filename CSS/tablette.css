@@ -133,7 +133,7 @@
     }
 
     .lodging-section h2 {
-        padding-left: 25%;
+        text-align: center;
         margin-bottom: 0;
     }
 
@@ -146,8 +146,23 @@
         margin: 0;
     }
 
+    #activities {
+        text-align: center;
+        margin: 10px 0 60px 0;
+    }
+
+    .activities-section {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
     .activities-section img {
-        width: 50%;
+        width: 100%;
+    }
+
+    .activities-box {
+        margin-bottom: 30px;
     }
 }
 
@@ -161,6 +176,34 @@
         padding: 50px 0 10px 60px;
     }
 
+    #lesmouettes {
+        visibility: hidden;
+        height: 0;
+        margin: 0;
+    }
+
+    #hoteldelamer {
+        visibility: hidden;
+        height: 0;
+        margin: 0;
+    }
+
+    #lepanier {
+        visibility: hidden;
+        height: 0;
+        margin: 0;
+    }
+
+    #chezamina {
+        visibility: hidden;
+        height: 0;
+        margin: 0;
+    }
+
+    .m-lodging {
+        height: 540px;
+    }
+
     .filters-ctg {
         justify-content: flex-start;
         width: 60%;
@@ -168,6 +211,15 @@
 
     .filters-box {
         justify-content: flex-start;
+    }
+
+    .activities-section {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .activities-box {
+        margin-bottom: 30px;
     }
 
 }
@@ -190,5 +242,21 @@
         visibility: hidden;
         height: 0;
         margin: 0;
+    }
+
+    #activities {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .activities-section {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    .activities-box {
+        margin-bottom: 30px;
     }
 }
