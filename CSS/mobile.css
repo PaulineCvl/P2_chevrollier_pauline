@@ -204,6 +204,10 @@
         margin: 45px 0 25px 20px;
     }
 
+    .footer {
+        flex-direction: column;
+    }
+
 }
 
 @media only screen and (max-width: 370px) {
