@@ -1,30 +1,21 @@
-@media only screen and (min-width: 481px) and (max-width: 950px) {
-    body {
-        margin: 0;
-    }
-
+@media only screen and (max-width: 980px) {
     header {
-        margin: 20px 40px;
+        height: auto;
+        margin: 0;
+        width: 100%;
     }
 
     .logo {
-        width: 30%;
-    }
-
-    header {
-        margin: 20px;
-        display: inline;
+        position: absolute;
+        justify-content: center;
+        width: 40%;
+        padding-top: 3px;
     }
 
     .header-nav {
         flex-direction: column;
         width: 100%;
-    }
-
-    .logo {
-        display: inline;
-        height: 50%; 
-        position: absolute;
+        height: 130px;
     }
 
     .logo img {
@@ -37,57 +28,72 @@
     }
 
     .tabs ul {
-        padding: 0;
-        width: 100%;
         height: 50px;
+        text-align: center;
     }
 
-    #lodging-tab {
-        padding-top: 20px;
-        border-top-style: none;
-        border-bottom-style: solid;
+    .tabs li {
+        border-bottom: 3px solid #f2f2f2;
+        padding-bottom: 20px;
+        width: 50%;
     }
 
-    #activities-tab {
-        padding-top: 20px;
-        border-bottom-style: solid;
-        border-color: #f2f2f2;
-        border-width: 2px;
+    .tabs li:hover {
+        color: #0065FC;
+        border-bottom-color: #0065FC;
+    }
+
+    .tabs a:hover {
+        border-top: none;
     }
 
     .register {
         order: -3;
         justify-content: flex-end;
         width: 85%;
+        height: 80%;
     }
 
+    .filters-head h3 {
+        font-size: 22px;
+    }
+
+    .popular-head {
+        justify-content: space-around;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 980px) {
+    /* MAIN */
+
     main {
+        width: 100%;
         margin: 0;
+    }
+
+    .search {
+        width: 95%;
+        margin: auto;
     }
 
     .filters-head {
         text-align: center;
     }
 
+    .search-section {
+        text-align: center;
+    }
+
     .filters-ctg {
         justify-content: flex-start;
-        width: 60%;
-    }
-
-    .filters-box {
-        justify-content: flex-start;
-    }
-
-    .search-box {
-        padding-left: 25%;
     }
 
     .search-box button {
         font-size: 0;
         position: relative;
         top: 2px;
+        left: -20px;
         width: 50px;
-        margin: -20px;
         border-radius: 15px;
     }
 
@@ -95,15 +101,15 @@
         visibility: visible;
         font-size: 16px;
         color: #fff;
-        position: relative;
     }
 
     .filters {
         justify-content: center;
+        align-items: baseline;
     }
 
     .info {
-        padding-left: 10%;
+        justify-content: center; 
     }
 
     .results {
@@ -113,52 +119,34 @@
     .popular-section {
         width: 100%;
         border-radius: 0;
-        padding: 50px 0 50px 0;
-    }
-
-    .popular-head {
-        width: 50%;
-        padding-left: 25%;
     }
 
     .m-popular {
-        padding-left: 25%;
+        width: 50%;
+        margin: auto;
+        margin-top: 20px;
     }
 
     .lodging-section {
         width: 100%;
         border-radius: 0;
         background-color: #fff;
-        padding: 50px 0 50px 0;
     }
 
     .lodging-section h2 {
         text-align: center;
-        margin-bottom: 0;
-    }
-
-    .m-lodging {
-        padding: 10%;
-    }
-
-    .more p {
-        padding-left: 10%;
-        margin: 0;
+        margin-top: 20px;
     }
 
     #activities {
         text-align: center;
-        margin: 10px 0 60px 0;
+        margin-top: 20px;
+        margin-bottom: 40px;
     }
 
     .activities-section {
         flex-direction: column;
         align-items: center;
-        width: 100%;
-    }
-
-    .activities-section img {
-        width: 100%;
     }
 
     .activities-box {
@@ -166,7 +154,7 @@
     }
 }
 
-@media only screen and (min-width: 481px) and (max-width: 800px) {
+@media only screen and (max-width: 800px) {
     .footer {
         flex-direction: column;
         align-items: center;
@@ -178,98 +166,31 @@
     }
 }
 
-@media only screen and (min-width: 951px) and (max-width: 1100px) {
+@media only screen and (min-width: 981px) and (max-width: 1350px) {
+    .lodging-box {
+        width: 90%;
+    }
+
+    .lodging-box img {
+        width: 100%;
+    }
+
     .popular-section {
-        height: 600px;
+        width: 35%;
+        height: fit-content;
     }
 
-    .lodging-section {
-        max-width: 350px;
-        padding: 50px 0 10px 60px;
-    }
-
-    #lesmouettes {
-        visibility: hidden;
-        height: 0;
-        margin: 0;
-    }
-
-    #hoteldelamer {
-        visibility: hidden;
-        height: 0;
-        margin: 0;
-    }
-
-    #lepanier {
-        visibility: hidden;
-        height: 0;
-        margin: 0;
-    }
-
-    #chezamina {
-        visibility: hidden;
-        height: 0;
-        margin: 0;
-    }
-
-    .m-lodging {
-        height: 540px;
-    }
-
-    .filters-ctg {
-        justify-content: flex-start;
-        width: 60%;
-    }
-
-    .filters-box {
-        justify-content: flex-start;
-    }
-
-    .activities-section {
-        flex-wrap: wrap;
-        justify-content: space-around;
-        width: 85%;
+    .m-popular {
+        margin-top: 25px;
     }
 
     .activities-box {
-        margin-bottom: 30px;
+        width: 90%;
+        height: 100%;
+        margin: auto;
     }
 
-}
-
-@media only screen and (min-width: 1101px) and (max-width: 1350px) {
-    .filters-ctg {
-        width: 80%;
-    }
-    .lodging-section {
-        width: 50%;
-    }
-
-    #lepanier {
-        visibility: hidden;
-        height: 0;
-        margin: 0;
-    }
-
-    #chezamina {
-        visibility: hidden;
-        height: 0;
-        margin: 0;
-    }
-
-    #activities {
-        text-align: center;
-        margin-bottom: 40px;
-    }
-
-    .activities-section {
-        flex-wrap: wrap;
-        justify-content: space-around;
-        width: 70%;
-        margin-left: 15%;
-    }
-
-    .activities-box {
-        margin-bottom: 30px;
+    .activities-box img {
+        width: 100%;
     }
 }
