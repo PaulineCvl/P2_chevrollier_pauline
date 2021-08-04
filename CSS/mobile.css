@@ -1,7 +1,16 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
 @media only screen and (max-width: 600px) {
     main {
         width: 100%;
     }
+
+    /* SECTION RECHERCHE ET FILTRES */
 
     .search {
         width: 90%;
@@ -37,21 +46,35 @@
     }
 
     .filters {
-        flex-direction: column;
-        align-items: flex-start;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
     }
 
     .filters-ctg {
-        justify-content: flex-start;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: flex-start;
     }
 
     .results {
-        flex-direction: column-reverse;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;
     }
 
     .popular-section {
         width: 100%;
         border-radius: 0;
+    }
+
+    .popular-head {
+        margin-top: 20px;
     }
 
     .m-popular {
@@ -72,13 +95,12 @@
 }
 
     .m-lodging {
-        flex-wrap: nowrap;
-        flex-direction: column;
-        width: 80%;
-        margin: auto;
-    }
-
-    .more {
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         width: 80%;
         margin: auto;
     }
@@ -87,35 +109,33 @@
         width: 100%;
     }
 
-    .activities-section {
-        flex-direction: column;
+    .more {
         width: 80%;
         margin: auto;
     }
 
-    .activities-box img {
-        width: 100%;
-    }
-
-    .activities-box {
-        margin-bottom: 25px;
-    }
+    /* SECTION ACTIVITES */
 
     #activities {
         text-align: center;
         margin-top: 10px;
     }
 
-}
-
-@media only screen and (max-width: 370px) {
-    .popular-box h4 {
-        font-size: 14px;
+    .activities-section {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        width: 80%;
+        margin: auto;
     }
 
-    .popular-box p {
-        font-size: 12px;
-        padding: 2%;
+    .activities-box {
+        margin-bottom: 25px;
     }
+
+    .activities-box img {
+        width: 100%;
+    }    
 
 }
