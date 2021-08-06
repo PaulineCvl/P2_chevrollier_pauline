@@ -502,7 +502,7 @@ main {
             box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.3);
 }
 
-.popular-box-img {
+.popular-box picture {
     border-radius: 15px 0 0 15px;
     padding: 5px;
     display: -webkit-box;

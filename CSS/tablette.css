@@ -23,11 +23,6 @@
         padding-top: 3px;
     }
 
-    .logo img {
-        margin: 20px;
-        height: 40px;
-    }
-
     .header-nav {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
@@ -72,12 +67,6 @@
         height: 80%;
     }
 
-    /* SECTION RECHERCHE ET FILTRES */
-
-    .filters-head h3 {
-        font-size: 22px;
-    }
-
     /* SECTION HEBERGEMENTS POPULAIRES */
 
     .popular-head {
@@ -87,6 +76,10 @@
 }
 
 @media only screen and (min-width: 600px) and (max-width: 980px) {
+    .logo img {
+        margin: 20px;
+        height: 40px;
+    }
 
     main {
         width: 100%;
@@ -102,6 +95,10 @@
 
     .filters-head {
         text-align: center;
+    }
+
+    .filters-head h3 {
+        font-size: 22px;
     }
 
     .search-section {
@@ -211,7 +208,7 @@
     }
 
     .footer div {
-        width: 300px;
+        width: 100%;
     }
 }
 

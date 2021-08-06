@@ -5,6 +5,87 @@
 * Browsers: last 4 version
 */
 
+@media only screen and (max-width: 400px) {
+    p, #lodging, #activities, .register li, h3, .popular-head h3, .popular-box-info h4, .lodging-box-info h4, a, .footer div h5, .footer ul {
+        font-size: small;
+    }
+
+    .logo img {
+        margin: 20px;
+    }
+
+    .fa-map-marker-alt {
+        height: 30px;
+        width: 30px;
+        border-radius: 10px;
+        top: 10px;
+        left: 10px;
+    }
+
+    .fa-map-marker-alt:before {
+        top: 8px;
+        left: 9px;
+    }
+
+    .search-box input {
+        height: 30px;
+        width: 60%;
+    } 
+
+    .search-box input::placeholder {
+        font-size: small;
+    }
+
+    .search-box button {
+        height: 30px;
+        width: 30px;
+        border-radius: 10px;
+    }
+
+    .fa-search:before {
+        height: 30px;
+        width: 30px;
+        left: -15px;
+    }
+
+    .popular-box {
+        display: inline-block;
+        margin-bottom: 30px;
+        background-color: #FFF;
+        border-radius: 15px;
+        -webkit-box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.3);
+                box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.3);
+    }
+
+    .popular-box picture {
+        padding: 0;
+        display: inline-block;
+    }
+    
+    .popular-box img {
+        width: 100%;
+        padding: 5px;
+        border-radius: 15px 15px 0 0;
+    }
+
+}
+
+@media only screen and (min-width: 401px) and (max-width: 599px) {
+    .search-box input {
+        width: 70%;
+    }
+
+    .search-box button {
+        border-radius: 15px;
+        width: 50px;
+    }
+
+    .logo img {
+        height: 40px;
+        margin: 20px;
+    }
+}
+
 @media only screen and (max-width: 600px) {
     main {
         width: 100%;
@@ -17,17 +98,11 @@
         margin: auto;
     }
 
-    .search-box input {
-        width: 70%;
-    }
-
     .search-box button {
         font-size: 0;
         position: relative;
         top: -4px; 
-        width: 50px;
         margin: -20px;
-        border-radius: 15px;
     }
 
     .search-box button i {
