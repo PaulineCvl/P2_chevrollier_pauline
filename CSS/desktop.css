@@ -180,6 +180,7 @@ main {
     text-align: center;
     font-family: 'Raleway', Arial, sans-serif;
     font-weight: bold;
+    font-size: 14px;
 }
 
 .search-box input::-webkit-input-placeholder {
