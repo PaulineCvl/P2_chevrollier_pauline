@@ -184,43 +184,23 @@ main {
 }
 
 .search-box input::-webkit-input-placeholder {
-    font-family: 'Raleway', Arial, sans-serif;
-    font-weight: bold;
     color: #000;
-    text-align: center;
-    font-size: 14px;
 }
 
 .search-box input::-moz-placeholder {
-    font-family: 'Raleway', Arial, sans-serif;
-    font-weight: bold;
     color: #000;
-    text-align: center;
-    font-size: 14px;
 }
 
 .search-box input:-ms-input-placeholder {
-    font-family: 'Raleway', Arial, sans-serif;
-    font-weight: bold;
     color: #000;
-    text-align: center;
-    font-size: 14px;
 }
 
 .search-box input::-ms-input-placeholder {
-    font-family: 'Raleway', Arial, sans-serif;
-    font-weight: bold;
     color: #000;
-    text-align: center;
-    font-size: 14px;
 }
 
 .search-box input::placeholder {
-    font-family: 'Raleway', Arial, sans-serif;
-    font-weight: bold;
     color: #000;
-    text-align: center;
-    font-size: 14px;
 }
 
 .search-box button {
